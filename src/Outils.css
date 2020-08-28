@@ -1,0 +1,67 @@
+@font-face {
+    font-family: poppins_med;
+    src: url(./fonts/Poppins-Medium.ttf);
+  }
+
+  @font-face {
+    font-family: poppins_req;
+    src: url(./fonts/Poppins-Regular.ttf);
+  }
+
+  *{
+    box-sizing: border-box;
+  }
+ 
+  .Outils_text{
+    font-family: 'poppins_med';
+    font-size: 15px;
+    color: rgb(69 79 99);
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+  
+  }
+  .Outils_text p{
+      display: block;
+  }
+  .Outils{
+    display: flex;
+	justify-content: center;
+	align-items: center;
+  }
+
+  .Folder p {
+
+    font-family: 'poppins_req';
+    font-size: 9px;
+    color: rgb(105 201 214);
+  }
+  .Folder{
+    color: rgb(105 201 214);
+  }
+
+  .Documents p{
+    font-family: 'poppins_req';
+    font-size: 9px;
+    color: rgb(116 128 255);
+  }
+  .Documents{
+    color: rgb(116 128 255);
+  }
+
+  .Pensebete p{
+    font-family: 'poppins_req';
+    font-size: 9px;
+    color: rgb(255 147 145);
+  }
+.Pensebete{
+    color: rgb(255 147 145);
+}
+  .Statistiques p{
+    font-family: 'poppins_req';
+    font-size: 9px;
+    color: rgb(248 170 112);
+  }
+  .Statistiques{
+    color: rgb(248 170 112);
+  }

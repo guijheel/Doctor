@@ -1,0 +1,86 @@
+@font-face {
+    font-family: poppins_med;
+    src: url(./fonts/Poppins-Medium.ttf);
+  }
+
+  @font-face {
+    font-family: poppins_req;
+    src: url(./fonts/Poppins-Regular.ttf);
+  }
+  *{
+    box-sizing: border-box;
+  }
+  .titre_consultation{
+    font-family: 'poppins_med';
+    font-size: 15px;
+    color: rgb(69 79 99);
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+  }
+  .MuiButton-label{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 0px;
+    width:100% ;
+  }
+
+  .rect_attente
+  {
+    display:inline-block!important;
+    width:calc(334px);
+    height:117px;
+    background-color:rgb(131 142 254);
+    border-radius: 12px;
+    margin-left: 15px;
+  }
+  .titre_attente{
+    font-size: 14px;
+    font-family: 'poppins_req';
+    color: white;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 45%;
+    border-radius: 5px;
+  }
+  
+  .text_attente{
+    font-size: 14px;
+    font-family: 'poppins_req';
+    color: white;
+    padding-left: 15px;
+    padding-top: 25px;
+    width: 60%;
+  }
+  
+
+  .rect_avenir
+  {
+    display:inline-block!important;
+    width:calc(334px);
+    height:117px;
+    background-color:rgb(42 165 183);
+    border-radius: 12px;
+    margin-left: 15px;
+    margin-top: 15px;
+  }
+  .titre_avenir{
+    font-size: 14px;
+    font-family: 'poppins_req';
+    color: white;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 45%;
+    border-radius: 5px;
+  }
+  
+  .text_avenir{
+    font-size: 14px;
+    font-family: 'poppins_req';
+    color: white;
+    padding-left: 15px;
+    padding-top: 25px;
+    width: 60%;
+  }
